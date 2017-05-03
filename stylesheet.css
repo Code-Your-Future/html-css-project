@@ -1,0 +1,172 @@
+.nav {
+    background-color: blue;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+button {
+    font-size: 16px;
+    color: white;
+    background-color: blue;
+    padding: 3px 3px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    line-height: 2em;
+    margin-left: 190px
+    
+
+}
+button:hover {
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    padding: 3px 3px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    line-height: 2em;
+    margin-left: 190px
+    
+
+}
+
+button a {
+    color:white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color:red;
+    text-decoration: none;
+}
+
+h1 {
+ margin-left: 460px;
+}
+
+.main {
+    background: grey;
+    width: 100%;
+    
+    
+}
+
+
+header {
+    background-color: #dce1df;
+    margin: 0px;
+}
+
+body {
+    margin:0;
+    background-color: #dce1df;
+    width: 100%;
+    }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+img{
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 40px;
+}
+
+p {
+    max-width: 500px;
+    margin: 20px;
+}
+
+
+}
+
+
+p:first-child {
+    background-color: yellow;
+}
+
+
+.nav a {
+    width: 100%;
+    float: none;
+   height: 30px;
+    color: white;
+    text-align: center;
+    padding: 30px 36px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 40px 80px;
+    border: 10px transparent;
+    
+}
+
+.nav a:hover {
+    border: white;
+    background-color: green;
+    color: white;
+
+}
+
+
+.nav a.active {
+    background-color: green;
+    color: white;
+}
+
+
+.notmain {
+    display: flex;
+    background: yellow;
+    width: 100%;
+    margin: 0px;
+}
+
+.notmain .article1{
+    margin: 10px;
+}
+
+.notmain .article2{
+    margin: 10px;
+}
+
+.notmain .article3{
+    margin: 10px;
+}
+
+
+/* I couldn't make a three column layout
+.article3 {
+    float: right;
+
+}
+
+
+.article3  {
+    float: right;
+    display: flex;
+
+}
+
+.article3 img {
+    float: right;
+
+}
+.article1 {
+    float: left;
+    
+}
+
+.article1 p {
+    float: left;
+}
+
+.article1 img {
+    float: left;
+}
+*/
