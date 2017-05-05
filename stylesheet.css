@@ -2,9 +2,45 @@
     background-color: blue;
     overflow: hidden;
     width: 100%;
+    position: relative;
+    height: 40px;
+    top: 20px;
+    text-align: center;
+    margin: 0px;
+}
+
+.nav a {
+    width: 100%;
+    float: none;
+    top: 10px;
+    color: white;
+    text-align: center;
+    padding: 30px 36px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0px;
+    
+    position: relative;
+    
+}
+
+.nav a.active {
+    background-color:   green;
+    color: white;
+      border: 30px transparent;
+    position: relative;
+    padding: 30px 36px;
+    margin: 0px;
+    width:100%;
 }
 
 
+h1 {
+    text-align: center;
+    color:green;
+    position: relative;
+    top:10px; 
+}
 
 button {
     font-size: 16px;
@@ -41,9 +77,6 @@ button a:hover {
     text-decoration: none;
 }
 
-h1 {
- margin-left: 460px;
-}
 
 .main {
     background: grey;
@@ -84,7 +117,6 @@ p {
 }
 
 
-}
 
 
 p:first-child {
@@ -92,19 +124,7 @@ p:first-child {
 }
 
 
-.nav a {
-    width: 100%;
-    float: none;
-   height: 30px;
-    color: white;
-    text-align: center;
-    padding: 30px 36px;
-    text-decoration: none;
-    font-size: 17px;
-    margin: 40px 80px;
-    border: 10px transparent;
-    
-}
+
 
 .nav a:hover {
     border: white;
@@ -114,10 +134,6 @@ p:first-child {
 }
 
 
-.nav a.active {
-    background-color: green;
-    color: white;
-}
 
 
 .notmain {
@@ -125,18 +141,23 @@ p:first-child {
     background: yellow;
     width: 100%;
     margin: 0px;
+    flex-wrap: wrap;
 }
 
 .notmain .article1{
     margin: 10px;
+    max-width: 400px;
+    
 }
 
 .notmain .article2{
     margin: 10px;
+    max-width: 400px;
 }
 
 .notmain .article3{
     margin: 10px;
+    max-width: 400px;
 }
 
 
