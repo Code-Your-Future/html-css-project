@@ -6,6 +6,7 @@
 }
 body{
     margin: 20px 150px;
+    color: #333;
 }
 a{
     text-decoration: none;
@@ -25,8 +26,15 @@ img{
     margin: 0 auto;
     padding: 30px;
 }
+article:first-child p.summary:first-letter{
+    font-size: 2px;
+    font-style: italic;
+}
 .poem{
     text-align: center;
+}
+article:last-child p:last-of-type{
+    margin-left: 25%;
 }
 blockquote p{
     border-left: 5px solid grey;
@@ -34,4 +42,7 @@ blockquote p{
 }
 blockquote cite{
     margin-left: 150px;
+}
+footer{
+    text-align: center;
 }
