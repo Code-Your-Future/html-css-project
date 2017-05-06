@@ -8,6 +8,13 @@ body{
     margin: 20px 150px;
     color: #333;
 }
+header h1{
+    font-size: 48px;
+    text-align: center;
+}
+header p{
+    font-size: 20px;
+}
 a{
     text-decoration: none;
 }
@@ -25,6 +32,9 @@ img{
     display: block;
     margin: 0 auto;
     padding: 30px;
+}
+article h2{
+    margin: 10px;
 }
 article:first-child p.summary:first-letter{
     font-size: 2px;
