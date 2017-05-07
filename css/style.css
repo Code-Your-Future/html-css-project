@@ -1,0 +1,165 @@
+body{
+    background-color: #EDE5DA;
+    overflow-x: hidden;   
+}
+ h1{
+     font-family: 'Concert One', cursive;
+     color: white;
+     font-size: 6em;
+ }
+   h2,h3{
+       font-family: 'Concert One', cursive;
+       font-size: 2em;
+   }
+
+p{
+    font-family: "amaranth", sans-serif;
+    font-size: 1.5em;
+    color: #353535;
+    line-height: 1.4em;
+    padding: 10px 100px 0 100px;
+}
+p::first-letter{
+    font-size: 4em;
+    color: #8EA094;
+}
+.menu , .info{
+    font-family: 'Amaranth', sans-serif;
+    background-color: #8EA094;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li.menu{
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 50px;
+    border: 10px solid transparent;
+}
+li.menu a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: all .5s ease-out;
+}
+
+li.menu a:hover{
+    border-bottom: white solid 3px;
+    padding-bottom: 5px;
+}
+
+li a:focus{
+    border-bottom: white solid 2px;
+    padding-bottom: 5px;
+}
+
+.b1{
+    padding-top: 50px;
+}
+.B1{
+    text-transform: uppercase;
+    margin-top: -23px;
+    width: 100%;
+    height: 813px;
+    text-align: center;
+    background-image: url("./images/01.jpg");
+    background-repeat: no-repeat;
+}
+.color{
+    color: #8EA094;
+}
+
+.content{
+    padding: 30px;
+    margin: 15px;
+}
+.B2{
+    /*margin-top: -23px;*/
+    text-transform: uppercase;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-image: url("./images/02.jpg");
+    background-repeat: no-repeat;
+}
+.left-title{
+    text-align: right;
+    margin-right: 100px;
+    }
+
+.pic{
+    margin-top: 10px;
+    width: 400px;
+    height: 600px;
+}
+
+.church{
+    margin: -490px 0px 0px 400px;
+}
+.B3{
+    text-transform: uppercase;
+    background-image: url("./images/04.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height:632px;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 140px;
+    
+    
+}
+
+footer{
+    background-color: #8EA094;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+input{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 2em;
+    color: #476172;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px;
+}
+input[type=submit]{
+    background-color: white;
+    text-decoration: none;
+    margin: 5px;
+}
+
+aside{
+    background-color: #476172;
+    float: right;
+    width: 20%;
+    position: relative;
+    top: -140px;
+}
+
+
+aside ul.info li{
+    padding-top: 30px;
+    margin-bottom: 30px;
+    padding-left: -20px;
+    border-top: 1px solid #1a7ec2;
+}
+
+aside ul.info li a{
+    color: white;
+    padding: 30px 30px 30px 10px;
+    text-decoration: none;
+    transition: all .2s ease-out;
+}
+
+aside ul.info li a:hover{
+    background-color: #DAC0AF;
+}
+
+.left {
+    width: 60%;
+    float: left;  
+}
