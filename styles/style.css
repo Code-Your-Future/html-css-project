@@ -1,0 +1,236 @@
+html,
+body {
+	font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+background-color: black;
+color: white;
+}
+
+img.portada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     }
+
+     h1 {
+        text-align: center
+     }
+
+     /*Menu*/
+.navbar-brand > img {
+	max-height: 40px;
+	width: auto;
+}
+
+.navbar-light .nav-link  {
+	color: #292b2c;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.navbar {
+    width: 800;
+    position: absolute;
+    top: 450px;
+    left: 50%;
+    margin-left: -400px; /*half the size of width*/
+}
+.nav-item{
+    font-size: 20px;
+    border-radius: 0.20em;
+    background: #9764db;
+    }
+
+.nav-item:hover,
+.nav-item:focus {
+    background: #b192db;
+	border-color: #9764db;
+    border-radius: 0.20em;
+}
+/*Line decoration*/
+.heading-underline {
+	position: relative;
+	margin-bottom: 2em;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid #dccdc6;
+	font-size: 1rem;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.heading-underline:before {
+	content: '';
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 25%;
+	height: 1px;
+	max-width: 100px;
+	background: #9764db;
+}
+
+/* FlexiBoxex All articles and sidebar included*/
+.main-container {
+  	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	margin-top: 5rem;
+	max-width: 100%;
+	
+}
+.row{
+	display: flex;
+	flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	max-width: 80%;
+}
+.tres-arriba {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	max-width: 100%;
+}
+.tres-abajo {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    margin-bottom: 2rem;
+	max-width: 100%;
+
+}
+
+/*Intro*/
+
+.intro-title {
+	margin-bottom: 0.5em;
+	font-weight: 700;
+}
+
+.intro-lead{
+    text-align: justify;
+}
+
+blockquote{
+		color: #dccdc8;
+		font-style: italic;
+		text-align: center;
+
+	}
+.section-1{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-2{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-3{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-4{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-5{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+.section-6{
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+	align-items: center;
+	max-width: 30%
+}
+
+/*Articles*/
+
+
+.section-title {
+	margin-bottom: 0.5em;
+	font-weight: 700;
+}
+.Section article:first-child{
+font-size: 18px;
+color: #b192db;
+}
+.section-lead{
+    text-align: justify;
+}
+.section-read-more a {
+	font-size: 0.85em;
+	font-weight: 700;
+	text-decoration: uppercase;
+}
+
+.section-read-more a:hover,
+.section-read-more a:focus {
+	text-decoration: none;
+}
+
+.section-read-more .fa {
+	margin-right: 0.5em;
+	color: #9764db;
+}
+
+.section-read-more:last-child {
+	margin-bottom: 0;
+}
+
+/*SideBar*/
+.sidebar-content {
+	display: flex;
+	flex-direction: column;
+    justify-content: left;
+    align-content: left;
+    max-width:30%;	
+}
+
+.article-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+@media screen and (min-width: 992px) {
+
+	.navbar-brand > img {
+	   max-height: 80px;
+	}
+}
+/*Footer*/
+.site-footer {
+	margin-top: 4em;
+}
+
+.site-footer p {
+	border-top: 1px solid #9764db;
+	padding-top: 2em;
+	padding-bottom: 2em;
+    padding-left: 5em;
+}
