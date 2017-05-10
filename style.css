@@ -15,8 +15,25 @@ header h1{
 header p{
     font-size: 20px;
 }
+main{
+    position: relative;
+}
+section{
+    width: 66%;
+    padding: 0 10px;
+}
+.sidebar{
+     width: 33.5%;
+     position: absolute;
+     top: 0px;
+     right: 0px;
+     padding: 0 10px;
+}
 a{
     text-decoration: none;
+}
+hr{
+    margin: 2em 0;
 }
 p:first-child, 
 dl{
