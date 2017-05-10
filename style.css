@@ -7,10 +7,19 @@
 body{
     margin: 20px 150px;
     color: #333;
+    font-family: 'Source Serif Pro', serif;
+}
+header{
+    background: #622569;
+    color: #fff;
 }
 header h1{
     font-size: 48px;
     text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 6.5em;
+    font-weight: bolder;
+    letter-spacing: 4px;
 }
 header p{
     font-size: 20px;
