@@ -5,11 +5,11 @@
     line-height: 150%;
 }
 body{
-    margin: 20px 150px;
+    
     color: #333;
     font-family: 'Source Serif Pro', serif;
 }
-header{
+header,footer{
     background: #622569;
     color: #fff;
 }
@@ -25,17 +25,13 @@ header p{
     font-size: 20px;
 }
 main{
-    position: relative;
+    margin: 20px 50px 0px 50px;
+    display: flex;
 }
 section{
-    width: 66%;
     padding: 0 10px;
 }
 .sidebar{
-     width: 33.5%;
-     position: absolute;
-     top: 0px;
-     right: 0px;
      padding: 0 10px;
 }
 a{
@@ -59,11 +55,11 @@ img{
     margin: 0 auto;
     padding: 30px;
 }
-article h2{
+h2{
     margin: 10px;
 }
 article:first-child p.summary:first-letter{
-    font-size: 2px;
+    font-size: 1.8em;
     font-style: italic;
 }
 .poem{
@@ -81,4 +77,10 @@ blockquote cite{
 }
 footer{
     text-align: center;
+}
+footer a{
+    color: #ffcc5c;
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    letter-spacing: 2px;
 }
