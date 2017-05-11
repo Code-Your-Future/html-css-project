@@ -1,0 +1,96 @@
+@media only screen and (min-width: 768px){
+    .solar, .planets,{
+        display: flex;
+
+    }
+    #main{
+    width: 90%;
+    margin: auto;
+
+}
+
+}
+
+@media only screen and (min-width: 1025px){
+    .solar, .planets,{
+        display: flex;
+
+    }
+    #main{
+      width: 80%;
+    margin: auto;
+
+
+}
+
+}
+
+#main{
+    width: 1200px;
+    border: 1px solid black;
+    margin: 80px;
+    background-color: blue;
+    margin-top: 0px;
+    padding-top: 0px; 
+
+}
+
+.solar{
+   display:flex;
+   background-color: lightblue
+
+}
+.planets{
+    display: flex;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px; 
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    
+}
+
+.plan{
+    align-items: stretch;
+    flex-grow: 1;
+    flex-wrap: wrap;
+     width: 250px;
+
+}
+img{
+    height: 150px;
+    width: 200px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    background-color: #1E90FF;
+    margin-left: 80px;
+    margin-right: 50px;
+}
+.ab{
+    width: 200px;
+    height: 200px;
+}
+.about{
+   display: flex;
+   align-self: center;
+   font-size: 20px;
+   color: white;
+   
+}
+footer{
+    background-color: white;
+     text-align: center;
+}
+p{
+    color: black;
+}
+h2{
+    color: blue;
+    text-decoration: underline;
+}
+
