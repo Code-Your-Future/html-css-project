@@ -25,14 +25,36 @@ header p{
     font-size: 20px;
 }
 main{
-    margin: 20px 50px 0px 50px;
+    margin: 20px 60px 0px 60px;
     display: flex;
 }
 section{
     padding: 0 10px;
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    
+}
+section article{
+     width: 33.3%;
+     align-items: baseline;
+}
+section article:nth-child(5){
+    width:40%;
+}
+section article:nth-child(4),
+section article:nth-child(6){
+    width:30%;
 }
 .sidebar{
-     padding: 0 10px;
+     padding: 0 0px;
+     width: 20%;
+}
+.sidebar p{
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5em;
+    font-weight: 900;
+    letter-spacing: 2px;
 }
 a{
     text-decoration: none;
@@ -54,26 +76,47 @@ img{
     display: block;
     margin: 0 auto;
     padding: 30px;
+    width: 100%;
 }
-h2{
+
+h2,
+h3{
     margin: 10px;
+    border-bottom: 1px solid #000;
+}
+section article:first-child h3{
+    padding-bottom: 10px;
+}
+section article:not(:first-of-type) h2,
+.sidebar h2{
+    margin-top: 47px;
 }
 article:first-child p.summary:first-letter{
     font-size: 1.8em;
     font-style: italic;
 }
+#awards{
+    margin-left: 50px;
+}
 .poem{
     text-align: center;
 }
-article:last-child p:last-of-type{
-    margin-left: 25%;
+h4.poem_title{
+    margin: 20px 20px 10px 20px ;
+    font-weight: 900;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+article:nth-child(3) p:last-of-type{
+    margin-left: 15%;
 }
 blockquote p{
     border-left: 5px solid grey;
-    margin: 5px 100px;
+    margin: 5px 30px;
 }
 blockquote cite{
-    margin-left: 150px;
+    margin-left: 50px;
+    text-align: center;
 }
 footer{
     text-align: center;
