@@ -162,6 +162,12 @@ footer a{
     }
 }
 @media screen and (max-width:1135px) {
+     blockquote cite{
+        margin-left: 20px;
+         font-size: .9em;
+    }
+}
+@media screen and (max-width:1135px) {
     section h2{
         font-size: 1.3em;
     }
@@ -178,6 +184,9 @@ footer a{
 @media screen and (max-width:996px) {
     section article:first-child h2{
         margin-top: -20px;
+    }
+     blockquote cite{
+         font-size: .7em;
     }
 }
 @media screen and (max-width:948px) {
@@ -233,6 +242,9 @@ footer a{
     }
     section h2{
         font-size: 1.5em;
+    }
+    blockquote cite{
+         font-size: 1.2em;
     }
 }
 
