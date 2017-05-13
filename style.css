@@ -6,7 +6,7 @@
 }
 body{
     color: #333;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Rasa', serif;
 }
 header,footer{
     background: #622569;
@@ -16,47 +16,49 @@ header{
     width: 100%;
 }
 header h1{
-    font-family: 'Tangerine', cursive;
-    font-size: 2.95em;
+    font-family: 'Oleo Script', cursive;
     font-weight: bolder;
+    font-size: 5em;
+    text-align: center;
     letter-spacing: 3px;
     color: #ffcc5c;
     padding: 5px 15px;
 }
-header p{
-    font-size: 20px;
-}
 main{
-    margin: 10px 20px 0px 20px;
+    margin: 10px 60px 0px 90px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 section{
     padding: 0 0px;
     display: flex;
-    flex-direction: column;
-    width: 100%;   
+    flex-direction: row;
+    width: 80%;
+    flex-wrap: wrap;
 }
 section article{
-     width: 100%;
+     width: 33%;
 }
 section article:nth-child(5){
-    width:100%;
+    width:40%;
 }
 section article:nth-child(4),
 section article:nth-child(6){
-    width:100%;
+    width:30%;
 }
 section h2{
     padding-bottom: 10px;
 }
+article{
+    font-size: 1.2em;
+}
 .sidebar{
      padding: 0 0px;
-     width: 100%;
+     width: 20%;
 }
 .sidebar p{
     font-family: 'Tangerine', cursive;
-    font-size: 1.5em;
+    font-size: 1em;
     font-weight: 900;
     letter-spacing: 2px;
 }
@@ -84,9 +86,11 @@ img{
     display: block;
     margin: 0 auto;
     padding: 10px;
-    width: 60%;
+    width: 80%;
 }
-
+.sidebar img{
+    width: 250px;
+}
 h2,
 h3{
     margin: 10px 10px;
@@ -113,7 +117,7 @@ article:first-child p.summary:first-letter{
     text-align: center;
 }
 h4.poem_title{
-    margin: 20px 20px 10px 20px ;
+    margin: 10px 20px 10px 20px ;
     font-weight: 900;
     padding-bottom: 10px;
     font-size: 1em;
@@ -124,7 +128,7 @@ article:nth-child(3) p:last-of-type{
 }
 article:first-child dd:last-child,
 article:nth-child(2) p:last-of-type{
-    margin-top: 30px;
+    margin-top: 20px;
 }
 blockquote p{
     border-left: 3px solid #d3d3d3;
@@ -142,11 +146,15 @@ footer p{
 footer a{
     color: #ffcc5c;
     font-family: 'Tangerine', cursive;
-    font-size: 1.2em;
+    font-size: 1em;
     letter-spacing: 2px;
 }
 
 @media screen and (max-width:1262px) {
+    header h1{
+        font-size: 4.5em;
+    }
+
 /*
   header,footer{
     background: #622569;
@@ -286,13 +294,79 @@ footer a{
 }
 
 @media screen and (max-width:825px) {
-    
+    header h1{
+        font-size: 4em;
+    }
+    main{
+        margin: 10px 20px 0px 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    section{
+        padding: 0 0px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;   
+    }
+    .sidebar{
+        width: 100%;   
+    }
+    section article{
+        width: 100%;
+    }
+    section article:nth-child(5){
+        width:100%;
+    }
+    section article:nth-child(4),
+    section article:nth-child(6){
+        width:100%;
+    }
 }
 
 @media screen and (max-width:760px) {
-    
+     header h1{
+        font-size: 3.5em;  
+    }
 }
-
+@media screen and (max-width:625px) {
+     header h1{
+        font-size: 2.9em;
+    }
+    article{
+        font-size: 1.1em;
+    }
+    img{
+        width: 250px;
+    }
+    article:first-child p.summary:first-letter{
+        font-size: 2em;
+    }
+    dl{
+        padding: 15px;
+    }
+    dt{
+        padding: 5px 0;
+    }
+    p{
+        padding: 8px 15px;
+    }
+    dd{
+        padding-left: 10px;
+    }
+    #awards{
+        margin-left: 40px;
+    }
+    #awards li{
+        margin: 8px 0;
+    }
+    blockquote cite{
+        margin-left: 40px;
+    }
+}
 @media screen and (max-width:425px) {
+    img,
+    .sidebar img{
+        width: 200px;
+    }
     
 }
