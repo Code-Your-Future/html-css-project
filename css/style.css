@@ -1,0 +1,174 @@
+html {
+ max-width: 800px;
+ margin: 0 auto;
+}
+
+.header-format {
+  text-align: center;
+  background-color: #5CCEC4;
+  font-family: serif, monospace;
+  font-size: 1.2em;
+}
+
+header p {
+  font-family: serif;
+  font-size: 0.9em;
+}
+ 
+.photo { 
+   border: 1% solid #29C376;
+   border-radius: 10%;
+   width: 98%;
+   margin: 0px 0px 0px 10px;
+   max-width: 300px;
+  }
+
+.paragraphs {
+  background-color: #EFF5F4  ; 
+  }
+
+table {
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+td, th {
+  background-color: #87E5BE;
+  border-top: 1px solid;
+  border-right: 1px solid; 
+  padding: 10px 10px 10px 10px;
+}
+
+.page { 
+  margin: 10px 30px 10px 30px;
+  font-family: serif, monospace;
+  text-align: justify;
+}
+
+.nav {
+  padding: 0;
+  margin: 0;
+}
+
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-family: serif;
+  font-size: 0.7em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid white;
+  }
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  transition: 3s background-color;
+  background-color: #777;
+}
+
+.nav a:hover {
+  background-color: #5CCEC4;
+  }
+
+  #governorates {
+  clear: both;
+}
+
+#attractions {
+  clear: both;
+}
+
+.survey {
+  clear: both;
+}
+
+.footer-format {
+  text-align: center;
+  border-top: 3px solid;
+  margin: 50px 30px 0px 30px;
+}
+
+.buttons {
+  float: left;
+  width: 30%;
+  margin-right: 3%;
+  background-color: #5CCEC4;
+}
+
+.date-posted {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.youtube {
+  margin: 0px 0px 10px 0px;
+  border: 5px solid #29C376;
+  border-radius: 10%;
+}
+
+.display-block {
+    display: block;
+}
+
+.final {
+    margin-bottom:10px;
+}
+
+.article:first-child {
+  font-weight: bold;
+  background-color:greenyellow;
+}
+.sidebar {
+  background-color: paleturquoise;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles, .sidebar {
+  width: 100%;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article {
+  width: 100%;
+  padding: 20px;
+  height: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  .articles {
+    width: 65%;
+  }
+ .sidebar {
+    width: 30%;
+    height: 30%;
+    padding: 10px; 
+  }
+  .nav li {
+    width: 23%;
+    border-bottom: none;
+    line-height: 50px;
+    font-size: 1em;
+    display: inline-block;
+    margin: -4px;
+  }
+  .article {
+ width: 40%;
+
+  }
+}
