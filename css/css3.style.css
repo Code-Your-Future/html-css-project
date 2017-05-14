@@ -1,0 +1,56 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    width: 90%;
+    background-color: #ffffff;
+}
+
+.flex-item {
+    background-color: #aaaaaa;
+    color: #ffffff;
+    text-shadow: -1px -1px #666666;
+    border: groove black;
+    border-radius: 7px;
+    width: 300px;
+    height: auto;
+    margin: 15px;
+    font: 25px extended; 
+    text-align: justify;
+}
+
+.title {
+    color: black;
+    text-align: center;
+}
+
+.p {
+  margin: 10px 10px 10px 10px;
+}
+
+@media only screen and (max-width: 768px) {
+.nav li {
+    width: 150px;
+    border-bottom: none;
+    line-height: 50px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin: -8px;
+  }
+      
+.flex-container {
+    text-align: justify;
+    padding: 0px;
+  }
+  
+.flex-item {
+    padding: 0px;
+  }
+  
+.p {
+    margin: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 100%;
+  }
+}
