@@ -1,0 +1,194 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+ 	color: #ccced1;
+ 	font-family: Sans-Serif;
+	font-size: 85%;
+	line-height: 1.5em;
+	text-align: left;
+}
+
+#container {
+	margin: 0 auto;
+	width: 90%;
+	
+}
+
+.header {
+	background-color: #f9f9f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 10px 0;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.header_img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.header h1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #1c1b1b;
+}
+
+.figure {
+    position: relative;
+    margin: 0 auto 15px;
+}
+
+.fig_img {
+    display: block;
+    border-radius: 5px;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    color: #efeded;
+}
+
+.para {
+    margin-bottom: 16px;
+    line-height: 20px;
+}
+
+.sidebar {
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.links_header {
+    font-weight: bold;
+    color: #00000;
+}
+
+.info_link {
+    color: #3f9af4;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.info_link:hover {
+    text-decoration: underline;
+    color: #f2131e;
+}
+
+.main_footer {
+	width: 100%;
+	float: left;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #4e4f4e;
+	margin: 2% 0 2% 0;
+}
+
+section {
+	width: 70%;
+	float: left;
+}
+
+.section1 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.section2 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%; 
+	margin-top: 2%;	
+}
+
+.section3 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%; 
+	margin-top: 2%;	
+}
+
+@media (max-width: 600px) {
+  .sidebar1 {
+    background-color: red;
+
+  }
+}
+
+.main_footer {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: grey;
+	margin: 2% 0 2% 0;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 500px) {
+
+	#container {
+		width: 90%;
+		font-size: 90%;
+}
+
+	.header {
+	width: 100%;
+}
+
+	.header h1 {
+	width: 30%;
+	height: auto;
+	margin: 2% 0; 
+}
+
+section {
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.section1 {
+	margin-top: 3%;
+}
+
+.section2 {
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 3% 5%; 
+	margin-top: 2%;
+	
+}
+
+.section3 {
+	margin-top: 3%;
+}
+
+.sidebar {
+	width: 94%;
+	margin: 2% 0% 2% 0%;
+	padding: 2% 3%;
+}
+
+.main_footer {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color: grey;
+	margin: 2% 0 2% 0; 
+}
+}
