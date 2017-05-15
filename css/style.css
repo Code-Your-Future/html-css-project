@@ -152,12 +152,14 @@ td, th {
 
 @media screen and (min-width: 600px) {
   .articles {
-    width: 65%;
+    width: 70%;
+    box-sizing: border-box;
   }
  .sidebar {
     width: 30%;
     height: 30%;
-    padding: 10px; 
+    padding: 10px;
+    box-sizing: border-box; 
   }
   .nav li {
     width: 23%;
@@ -168,7 +170,8 @@ td, th {
     margin: -4px;
   }
   .article {
- width: 40%;
+ width: 50%;
+ box-sizing: border-box;
 
   }
 }
