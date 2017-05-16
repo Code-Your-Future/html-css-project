@@ -200,12 +200,10 @@ footer a{
     }
     main{
         margin: 10px 10px 0px 10px;
-        display: flex;
         flex-direction: column;
     }
     section{
         padding: 0 0px;
-        display: flex;
         flex-direction: column;
         width: 100%;   
     }
