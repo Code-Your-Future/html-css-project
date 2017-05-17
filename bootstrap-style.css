@@ -1,0 +1,36 @@
+body, .container-fluid {
+    margin: 0px;
+    padding: -15px;
+   width: 100%;
+
+}
+
+
+
+.container-fluid{
+
+}
+.mainheader {
+    color: white;
+    height: 400px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://i.ytimg.com/vi/OuRVaUykjR4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+}
+
+
+.form-fill {
+    padding: 0 20px;
+    background-color: black;
+}
+
+#mainform {
+    background-color: white;
+    padding: 29px;
+}
