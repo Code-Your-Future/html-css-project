@@ -1,0 +1,131 @@
+
+header{
+    background: #128c7b;
+    display: flex;  
+    margin-bottom: 10px;
+}
+
+.h1{
+    color: white;
+    align-self: center;
+    text-align: center;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+
+.hearImage{
+    align-self: flex-start;
+    width: 25%;
+    height: 200px;
+    margin: 7PX 50px 7px 7px;
+}
+/* HEADINGS ENDS HERE */
+
+
+section{
+    background: #d0ebe7;
+    display: flex;    
+    margin: 10px;
+}
+/* THIS IS MAIN BODY SECTION. */
+
+
+aside{
+    background:#5ab9ac;
+    display: flex;
+    margin: 7px;
+}
+
+.asideList{
+    background:#7f8fbc;    
+    height: 205px;
+    width: 300px;
+    border: 1px solid rebeccapurple;
+    margin: 10px 50PX;
+    line-height: 50px;
+}
+
+l1{
+    display: block;
+    width: 100%;
+}
+li:nth-child(1){
+    background: #648358;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+li:nth-child(2){
+    background: #729665;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+li:nth-child(3){
+    background: #80a972;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid grey;
+}
+li:nth-child(4){
+    background: #8fbc7f;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/* ASIDE PANEL ENDS HERE */
+
+
+.mainDiv{
+    background: #89cdc4;
+    display: flex;
+    justify-content: flex-start;
+    margin: 7px 7px 7px;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    background: #a1d7cf;
+    height: 350px;
+    width: 28%;
+    border: 2px solid green;
+    margin: 15px;
+    padding: 5px;
+}
+
+.h2{
+    color: green;
+    margin-bottom: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.para{
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.warnImage{
+    height: 70px;
+    width: 70px;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+footer{
+    background: lightseagreen;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin-top: 10px;
+}

@@ -1,0 +1,117 @@
+#mainBox{
+    width: 90%;
+    height: 100%;
+    background-color: lightpink;
+    position: relative;
+    left: 5%;
+}
+
+header{
+    position: relative;
+    height: 10%;
+    /*background-color: gold;*/
+    top: 0px;
+    left: 0px;
+}
+
+h1{
+    height: 60%;
+    width: 100%;
+    color: brown;
+    font-family: Courier New;
+    font-size: 40PX;
+    background-color: lightsalmon;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px; 
+    border-bottom: solid 2px maroon;
+}
+
+.navigator{ 
+    width: 50%;
+    height: 30%;
+    /*background-color: orchid;*/
+    margin: 0px;
+    border-top: solid 15px rebeccapurple;
+    border-radius: 25%;
+    position: absolute;
+    left: 25%;
+    top: 60%;
+    
+     
+}
+
+span{
+    background-color: cornsilk;
+    color: rebeccapurple;
+    font-family: serif;
+    font-size: 20px;
+    padding: 0PX;
+    text-align: center;
+    margin-left: 10px;
+    
+}
+
+article{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+}
+.articles1{
+    position: absolute;
+    background-color: lightgrey;
+    width: 50%;
+    height: 50%;
+    top: 0px;
+    left: 0px;
+
+}
+.articles2{
+    position: absolute;
+    /*background-color: lightskyblue;*/
+    width: 50%;
+    height: 50%;
+    top: 0px;
+    right: 0px;
+
+}
+.articles3{
+    position: absolute;
+    background-color: lightseagreen;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    bottom: 0px;
+
+
+
+}
+.articles4{
+    position: absolute;
+    /*background-color: lightgrey;*/
+    width: 50%;
+    height: 50%;
+    right: 0px;
+    bottom: 0px;
+
+}
+
+footer{
+    position: absolute;
+    height: 5%;
+    width: 100%;
+    text-align: center;
+    background: lightblue;
+    left: 0px;
+    bottom: 0px;
+}
+
+
+.ul1{
+list-style: none;
+margin: 0PX;
+padding: 0PX;
+display: inline;
+}
