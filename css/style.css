@@ -14,6 +14,16 @@ header p {
   font-family: serif;
   font-size: 0.9em;
 }
+
+.basic-info {
+  position: relative;
+}
+
+.btn--large {
+  position: absolute;
+  top: 10px;
+  right: 0px; 
+}
  
 .photo { 
    border: 1% solid #29C376;
@@ -92,14 +102,13 @@ td, th {
 .footer-format {
   text-align: center;
   border-top: 3px solid;
-  margin: 50px 30px 0px 30px;
+  margin: 20px 30px 0px 30px;
 }
 
 .buttons {
-  float: left;
-  width: 30%;
-  margin-right: 3%;
-  background-color: #5CCEC4;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .date-posted {
