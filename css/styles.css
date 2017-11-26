@@ -5,7 +5,10 @@ body {
 	
 }
 
+ .article1 :first-child{
+	background-color: yellow;
 
+}
 
 .main-container {
 	width: 600px;
