@@ -6,12 +6,12 @@ body {
 }
 
  .article1 :first-child{
-	background-color: yellow;
+	color:rebeccapurple;
 
 }
 
-.main-container {
-	width: 600px;
+.container {
+	width: 60%;
 	height: auto;
 	background: #c2e7e2;
 	margin-top: 0px; 
