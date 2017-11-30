@@ -10,14 +10,15 @@ body {
 	background: #cce4ee;
 	
 	}
-.header h1{
-text-align:center;
-
-}
 .header{
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjXWM3M_LF7rXP9QKRkYA9Cj9sOrSX9e9tJFrVozdvTEiKePw");
-	color:white;
-	display:inline-block;
+	color:rgb(180, 5, 5);
+	display: inline;
+	text-align: center;
+	margin: 0 auto;
+	/* display:inline-block;
+	text-align:center;	
+	width:100%*/
 }
  .article1 > :first-child{
 	color:rgb(12, 129, 184);
@@ -27,17 +28,21 @@ text-align:center;
 https://s6.favim.com/orig/150604/adorable-beauty-broken-cool-Favim.com-2791096.jpg
 */
 img{
-	width:100%;
+	width:250px;
+	position: relative;
+	
 }
+	
 ul.nav-bar {
     list-style-type: none;
 	display:flex;
 	flex-wrap: wrap;
-	
+	justify-content: center; /* center kardane menu */
 	}
 ul.menu-bar li { /* amalan ezafas */
 	margin: auto; 
 	padding: auto;
+	
 }
 ul.nav-bar li a {
 	padding: 6px 15px;
@@ -46,18 +51,23 @@ ul.nav-bar li a {
 	font-weight: bold;
 	color:white;
 	
+	
 	}
 ul.nav-bar a:hover   {
 	background: #5da7ec; 
-	color: rgb(194, 17, 17); 
+	color: rgb(241, 23, 23); 
 	border-radius: 50px;
 	}
 
 hr { 
 	border-style:inset;
 	border-color: blue;
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
 }
 footer { 
 	/* display: block; */
 	text-align: center;
 }
+
