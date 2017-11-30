@@ -3,52 +3,61 @@ body {
 	color:rgb(3, 7, 46);
 	background-image:url('http://i64.tinypic.com/qz0ro6.jpg');
 }
-
- .article1 > :first-child{
-	color:rgb(12, 129, 184);
-
-}
-
 .container {
 	width: 60%;
-	padding:25px;
+	padding:20px;
 	margin: auto;
-	background: #a6d4e7;
+	background: #cce4ee;
+	
+	}
+.header h1{
+text-align:center;
+
+}
+.header{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjXWM3M_LF7rXP9QKRkYA9Cj9sOrSX9e9tJFrVozdvTEiKePw");
+	color:white;
+	display:inline-block;
+}
+ .article1 > :first-child{
+	color:rgb(12, 129, 184);
+}
+
+/* img 
+https://s6.favim.com/orig/150604/adorable-beauty-broken-cool-Favim.com-2791096.jpg
+*/
+img{
+	width:100%;
+}
+ul.nav-bar {
+    list-style-type: none;
+	display:flex;
+	flex-wrap: wrap;
+	
+	}
+ul.menu-bar li { /* amalan ezafas */
+	margin: auto; 
+	padding: auto;
+}
+ul.nav-bar li a {
+	padding: 6px 15px;
+	display: inline-block; 
+	text-decoration: none; 
+	font-weight: bold;
+	color:white;
+	
+	}
+ul.nav-bar a:hover   {
+	background: #5da7ec; 
+	color: rgb(194, 17, 17); 
+	border-radius: 50px;
 	}
 
-
-
 hr { 
-    border-style:inset;
+	border-style:inset;
+	border-color: blue;
 }
 footer { 
 	/* display: block; */
 	text-align: center;
 }
-ul.menu-bar {
-	margin: 0; 
-	list-style-type: none;
-	display:flex;
-	flex-wrap: wrap;
-	
-	}
-ul.menu-bar li {
-	margin: 2px; 
-	padding: 2px; 
-	text-align: center; 
-	background: #c2d5f0; 
-	display: inline-block; 
-	font-size: 15px;
-	border-radius: 5px;
-	margin-left: 3px;
-	}
-ul.menu-bar li a {
-	color: rgb(1, 1, 19); 
-	display: block; 
-	padding: 7px 20px; 
-	text-decoration: none; 
-	}
-ul.menu-bar li:hover {
-	background: #8ce6ec; 
-	color: #fff; 
-	}
