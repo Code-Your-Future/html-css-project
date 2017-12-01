@@ -1,23 +1,26 @@
 body {
     
-	color:rgb(3, 7, 46);
-	background-image:url('http://i64.tinypic.com/qz0ro6.jpg');
+	color:#7f0a49;
+	background-color:#FF1493;
 }
-.container {
+
+.content {
 	width: 60%;
 	padding:20px;
 	margin: auto;
-	background: #cce4ee;
+	background:#FFC0CB;
 	
 	}
-.header{
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjXWM3M_LF7rXP9QKRkYA9Cj9sOrSX9e9tJFrVozdvTEiKePw");
-	color:rgb(180, 5, 5);
+.header ,footer {
+	background-image: url("https://78.media.tumblr.com/e3c2f2576de598514cad393a59d7f444/tumblr_nm2qttBr9w1tx4fsyo1_r2_1280.png");
+	color:rgb(240, 12, 126);
 	display: inline;
 	margin: 0 auto;
-	/* display:inline-block;
+	display:block;
 	text-align:center;	
-	width:100%*/
+	width:60%;
+	padding:20px;
+
 }
  .article1 > :first-child{
 	color:rgb(12, 129, 184);
@@ -50,7 +53,7 @@ ul.nav-bar li a {
 	display: inline-block;
 	text-decoration: none; 
 	font-weight: bold;
-	color:rgb(9, 187, 241);
+	color:rgb(184, 10, 106);
 	
 	
 	}
@@ -70,16 +73,14 @@ hr {
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
-footer { 
-	/* display: block; */
-	text-align: center;
-}
-footer p {
-	text-align: inherit;
-}
+
 section{
 	text-align: center;
 	display: flex;
 	flex-wrap: wrap
 	
+}
+
+footer p {
+	text-align: inherit;
 }
