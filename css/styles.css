@@ -14,7 +14,6 @@ body {
 	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOjXWM3M_LF7rXP9QKRkYA9Cj9sOrSX9e9tJFrVozdvTEiKePw");
 	color:rgb(180, 5, 5);
 	display: inline;
-	text-align: center;
 	margin: 0 auto;
 	/* display:inline-block;
 	text-align:center;	
@@ -29,7 +28,9 @@ https://s6.favim.com/orig/150604/adorable-beauty-broken-cool-Favim.com-2791096.j
 */
 img{
 	width:250px;
-	position: relative;
+	height:250px;
+	position:relative;
+	margin:0 10px;
 	
 }
 	
@@ -46,23 +47,26 @@ ul.menu-bar li { /* amalan ezafas */
 }
 ul.nav-bar li a {
 	padding: 6px 15px;
-	display: inline-block; 
+	display: inline-block;
 	text-decoration: none; 
 	font-weight: bold;
-	color:white;
+	color:rgb(9, 187, 241);
 	
 	
 	}
 ul.nav-bar a:hover   {
 	background: #5da7ec; 
-	color: rgb(241, 23, 23); 
+	color: red; 
 	border-radius: 50px;
+	}
+	p{
+		text-align: justify;
 	}
 
 hr { 
-	border-style:inset;
-	border-color: blue;
-	height: 6px;
+	
+	height: 5px;
+	width:50%;
 	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
     border: 0;
 }
@@ -70,4 +74,12 @@ footer {
 	/* display: block; */
 	text-align: center;
 }
-
+footer p {
+	text-align: inherit;
+}
+section{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap
+	
+}
