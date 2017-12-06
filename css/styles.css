@@ -1,37 +1,47 @@
 body {
 	color:#7f0a49;
-	background-color:#FF1493;
-}
-.content {
-	width: 60%;
-	padding:20px;
-	margin: auto;
-	background:#FFC0CB;
-}
-	#sidebar {
-		width: 200px;
-		padding:10px;
-		background-color: rgb(233, 217, 236);
-		float: right;
+	
 }
 .header ,footer {
 	background-image: url("https://78.media.tumblr.com/e3c2f2576de598514cad393a59d7f444/tumblr_nm2qttBr9w1tx4fsyo1_r2_1280.png");
 	color:rgb(240, 12, 126);
-	display: inline;
 	margin: 0 auto;
 	display:block;	
 	width:60%;
-	padding:20px;
+	
 }
- .article1 > :first-child{
+.article1 > :first-child{
 	color:rgb(12, 129, 184);
 }
-img{
-	width:250px;
-	height:250px;
-	position:relative;
-	margin:0 10px;	
+.content {
+	width: 60%;
+	height:40%;
+	background-color: rgb(217, 183, 224);
+	float:left;
 }
+	#sidebar {
+		width: 40%;
+		background-color: rgb(217, 183, 224);
+		float: right;
+		height:50%;
+
+}
+#sidebar img {
+    width:20%;
+}
+img{
+    width:35%;
+}
+@media screen and (max-width: 800px) {	
+	#side-bar { 
+	  clear:both; 
+	  width:100%
+   }
+	.content
+	 { 
+	  width:100%;
+	   }
+  }
 ul.nav-bar {
     list-style-type: none;
 	display:flex;
@@ -51,16 +61,12 @@ ul.nav-bar a:hover   {
 	border-radius: 50px;
 }
 p{
-		text-align: justify;
+text-align: justify;
 }
-hr { 
-	height: 5px;
-	width:50%;
-	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
-    border: 0;
-}
-footer{
+
+.footer{
 	text-align:center;
+	clear:both;
 }
 footer p {
 	text-align: inherit;
@@ -70,4 +76,9 @@ footer p {
 	flex-wrap:wrap;
 	text-align:center;
 	vase center kardane h1 headere page!
-}	
+}	*/
+section{
+    display:flex;
+    background-color: rgb(241, 192, 211);
+    text-align:center;
+} 
