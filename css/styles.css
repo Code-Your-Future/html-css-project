@@ -1,64 +1,85 @@
 body {
-	color:#7f0a49;
-	
+	color:#0a6d67;
+	width: 70%;
+	margin:auto;
 }
-.header ,footer {
-	background-image: url("https://78.media.tumblr.com/e3c2f2576de598514cad393a59d7f444/tumblr_nm2qttBr9w1tx4fsyo1_r2_1280.png");
-	color:rgb(240, 12, 126);
+* {
+    box-sizing: border-box;
+}
+h1{
+	font-size: 2.5rem;
+}
+h3{
+	text-transform: uppercase;
+}
+.header{
 	margin: 0 auto;
 	display:block;	
-	width:60%;
-	
+	width:100%;
+	padding:1px;
+}
+article{
+	padding:7px;
+	text-align:center;
 }
 .article1 > :first-child{
-	color:rgb(12, 129, 184);
+	color:rgb(116, 90, 235);
+	text-transform: uppercase;
 }
+section{
+    display:flex;
+    text-align:center;
+} 
 .content {
-	width: 60%;
-	height:40%;
-	background-color: rgb(217, 183, 224);
+	width: 80%;
 	float:left;
+	height:auto;
+	padding:1px;
 }
 	#sidebar {
-		width: 40%;
-		background-color: rgb(217, 183, 224);
-		float: right;
-		height:50%;
+	width: 20%;
+	float: right;
+	height:auto;
+	padding:1px
+	
 
 }
 #sidebar img {
-    width:20%;
+	width:70px;
+	border-radius:50%;
+	
 }
 img{
-    width:35%;
+    width:40%;
 }
-@media screen and (max-width: 800px) {	
-	#side-bar { 
-	  clear:both; 
-	  width:100%
-   }
-	.content
-	 { 
-	  width:100%;
-	   }
-  }
+
 ul.nav-bar {
     list-style-type: none;
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center; /* center kardane menu */
 }
-ul.nav-bar li a {
+ul li{ 
+	float: left; /*no need actually */
+ }
+ul li:after {
+	content: "|"; padding: 0 .5em; 
+}
+ul li:last-child:after {
+    content: "";
+}
+
+ul.nav-bar li a ,a {
 	padding: 6px 15px;
 	display: inline-block;
 	text-decoration: none; 
 	font-weight: bold;
-	color:rgb(184, 10, 106);
+	color:#3c948e;
 }
 ul.nav-bar a:hover   {
-	background: #5da7ec; 
-	color: red; 
-	border-radius: 50px;
+	background: #9ce0ec; 
+	color: rgb(4, 51, 54); 
+	border-radius: 5px;
 }
 p{
 text-align: justify;
@@ -71,14 +92,20 @@ text-align: justify;
 footer p {
 	text-align: inherit;
 }
+@media screen and (max-width: 800px) {	
+	#sidebar { 
+	  clear:both; 
+	  width:100%;
+   }
+	.content
+	 { 
+	  width:100%;
+	   }
+  }
+
 /* section{
 	display:flex;
 	flex-wrap:wrap;
 	text-align:center;
 	vase center kardane h1 headere page!
 }	*/
-section{
-    display:flex;
-    background-color: rgb(241, 192, 211);
-    text-align:center;
-} 
