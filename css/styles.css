@@ -13,10 +13,12 @@ h3{
 	text-transform: uppercase;
 }
 .header{
+	border-radius: 5px;
 	margin: 0 auto;
 	display:block;	
 	width:100%;
 	padding:1px;
+	background-color:#76dfb4;
 }
 article{
 	padding:7px;
