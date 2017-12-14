@@ -10,6 +10,7 @@ body {
 h1{
 	font-size: 2.5rem;
 	font-family: 'Poiret One', cursive;
+	text-align: center;
 }
 h3{
 	text-transform: uppercase;
@@ -30,28 +31,32 @@ article{
 	color:rgb(116, 90, 235);
 	text-transform: uppercase;
 }
+.content section article{
+	width:33%;
+}
 section{
     display:flex;
-    text-align:center;
+	/* text-align:center; */
+
 } 
 .content {
 	width: 80%;
 	float:left;
-	height:auto;
-	padding:1px;
+	/* height:auto; */
+	/* padding:1px; */
+	margin-right:5px;
+	border:1px solid rgb(155, 247, 239);
+	text-align: center;
 }
 	#sidebar {
 	width: 18%;
 	float: right;
 	height:auto;
 	padding:1px
-	
-
 }
 #sidebar img {
 	width:70px;
-	border-radius:50%;
-	
+	border-radius:50%;	
 }
 img{
     width:40%;
@@ -96,16 +101,7 @@ text-align: justify;
 footer p {
 	text-align: inherit;
 }
-@media screen and (max-width: 800px) {	
-	#sidebar { 
-	  clear:both; 
-	  width:100%;
-   }
-	.content
-	 { 
-	  width:100%;
-	   }
-  }
+
 
 /* section{
 	display:flex;
@@ -113,3 +109,50 @@ footer p {
 	text-align:center;
 	vase center kardane h1 headere page!
 }	*/
+
+
+.forms{
+	width:19%;
+	border:1px solid rgb(114, 235, 214);
+	float: right;
+	/* max-height: auto; */
+	padding:5px;
+}
+input ,textarea{
+	width:100%;
+	
+}
+.check-box{
+	width:15px;
+}
+
+	@media screen and (max-width: 800px) {	
+		#sidebar { 
+		  clear:both; 
+		  width:100%;
+	   }
+		.content
+		 { 
+		  width:100%;
+		   }
+		.forms{	   
+		 width:100%;
+		 padding:20px;
+		   }
+		textarea,input{
+			max-width:120px;
+			margin-left:20px;
+
+		}   
+	  }
+
+/*
+#forms{
+float:left;	
+width:100%;
+height:auto;
+padding:15px;
+margin:0 auto;
+border:1px solid red;
+}
+*/
