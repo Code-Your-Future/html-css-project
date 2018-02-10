@@ -1,0 +1,32 @@
+.btn{
+    background-color: rgb(143, 82, 8);
+    color:white;
+}
+
+.card{
+    background-color: rgb(204, 235, 142);
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading{
+    color:green;
+    font-size: 45px;
+    font-variant: small-caps;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
