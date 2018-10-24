@@ -2,7 +2,7 @@
 
 First step is to fork this repo into your own Github account - if you don't remember how, then refer back Lesson 0 contents.
 
-## For Week 1
+For Week 1
 
 Create a new webpage on a subject that you're interested in (maybe the same topic you used for your Codepen submission). The page should **NOT** use any framework like Bootstrap and it should include the following elements:
   - The `.html` page and a linked `.css` file applies a consistent color scheme to links and text on your page.
@@ -20,7 +20,7 @@ Create a new webpage on a subject that you're interested in (maybe the same topi
   </a>
   
 
-## For Week 2
+For Week 2
 
 Revisit the webpage you created in last week's homework assignment. Add a sidebar to your site and move the site description into it. This should appear below the articles on small screens, then switch to a two-column layout with the articles and sidebar sitting side-by-side. Add at least three more articles and then convert them to a grid, so that you show 3 articles per row in a box layout.
 
@@ -30,7 +30,8 @@ Revisit the webpage you created in last week's homework assignment. Add a sideba
     <img src="blog-sketch-week-2.png" style="border: 1px solid #bababa;">
   </a>
 
-## For Week 3
+For Week 3
   - Explore how we name our classes and elements
   - Create a new Branch called bootstrap-site, and use a framework to implement the same site and compare
   (Learn about Branching here - https://guides.github.com/introduction/flow/)
+  -youtube channel to learn about branching-https://www.youtube.com/watch?v=oFYyTZwMyAg
