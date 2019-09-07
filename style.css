@@ -1,0 +1,192 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+header {
+  margin-bottom: 5%;
+}
+svg {
+  width: 100%;
+}
+.navbar-brand {
+  color: #ed1c24 !important;
+  font-weight: bold;
+  font-size: 2em;
+}
+#navbarNav {
+  position: absolute;
+  right: 0;
+}
+.active {
+  background-color: #ed1c24;
+  border-radius: 4px;
+}
+
+.map {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Syria_location_map3.svg/2600px-Syria_location_map3.svg.png);
+  background-size: 100% 100%;
+  height: 450px;
+  position: relative;
+  margin-top: 3%;
+}
+a[href="#aleppo"] {
+  position: absolute;
+  left: 29%;
+  top: 25%;
+}
+a[href="#ho"] {
+  position: absolute;
+  top: 59%;
+  left: 40%;
+}
+a[href="#ham"] {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+a[href="#id"] {
+  position: absolute;
+  top: 31%;
+  left: 20%;
+}
+a[href="#la"] {
+  position: absolute;
+  top: 31%;
+  left: 6%;
+}
+a[href="#ta"] {
+  position: absolute;
+  top: 43%;
+  left: 6%;
+}
+a[href="#raq"] {
+  position: absolute;
+  top: 24%;
+  left: 45%;
+}
+a[href="#da"] {
+  position: absolute;
+  top: 82%;
+  left: 10%;
+}
+a[href="#ha"] {
+  position: absolute;
+  top: 15%;
+  left: 64%;
+}
+a[href="#dam"] {
+  position: absolute;
+  top: 70%;
+  left: 17%;
+}
+a[href="#qu"] {
+  position: absolute;
+  top: 77%;
+  left: 0%;
+}
+a[href="#su"] {
+  position: absolute;
+  top: 86%;
+  left: 18%;
+}
+a[href="#dz"] {
+  position: absolute;
+  left: 59%;
+  top: 39%;
+}
+
+main a {
+  color: #ed1c24;
+  text-shadow: 2px 2px 9px #000000d6;
+  font-weight: 700;
+}
+.desc {
+  line-height: 40px;
+}
+.sidebar {
+  border: 1px solid #ed1c24;
+  box-shadow: 5px 5px 15px rgba(2, 2, 2, 0.5);
+  height: 450px;
+  overflow: hidden;
+  padding: 1%;
+  margin-top: 3%;
+}
+aside article span {
+  color: #ed1c24;
+  font-size: 3em;
+}
+section div {
+  height: 210px;
+  overflow: hidden;
+  margin-bottom: 2%;
+}
+section img {
+  width: 100%;
+  height: 170px;
+  margin-bottom: 1%;
+}
+#city-name {
+  color: #ed1c24;
+  font-weight: 700;
+}
+section h5 {
+  margin-top: 2%;
+  color: #2f9444;
+  font-weight: 700;
+}
+.info {
+  position: absolute;
+  width: 100%;
+  height: 0px;
+  left: 0%;
+  top: 0%;
+  background-color: rgba(250, 250, 250, 0.7);
+  font-size: 12px;
+  overflow: hidden;
+}
+.over {
+  height: 170px;
+  padding: 3% 8%;
+  transition: height 0.5s linear;
+}
+footer {
+  margin-top: 3%;
+  height: 150px;
+  background-color: rgba(2, 2, 2, 0.5);
+  color: #fff;
+}
+main .article-info-syria {
+  position: relative;
+  margin-bottom: 5%;
+}
+main .more {
+  position: absolute;
+  right: 2px;
+  bottom: -4%;
+}
+footer div[class^="col"] {
+  border-right: 1px solid white;
+  height: 150px;
+}
+footer h6 {
+  margin-top: 6%;
+}
+footer i {
+  font-size: 30px;
+  margin: 2% 5%;
+  cursor: pointer;
+}
+footer ul.navbar.navbar-nav {
+  height: 90px;
+  margin-top: 10%;
+}
+footer ul li a {
+  color: #fff;
+}
+footer img {
+  width: 100%;
+  height: 100%;
+}
