@@ -34,7 +34,7 @@ header{
     grid-column-gap: 1em;
     /*row gap*/
     grid-row-gap: 1em;
-    
+}
     /* grid-gap:1em; This will keep the same sizes between rows and columns */
 
   
@@ -42,24 +42,21 @@ header{
 /*grid-auto-rows: minmax (100px,auto);This code makes the height of the box 100px our 
 auto if you add more content that wil fill the box */
 
-.wrapper>div {
+.wrapper>div{
     background: #666464;
-    padding: 1em;
-    /*this is the padding for the text within the box */
+        padding: 1em;
 }
+    /*this is the padding for the text within the box */
+
 
 .wrapper>div:nth-child(odd) {
     /*Changing the color for odd numbers */
     background: #333030;
-
-
-
-
-footer{
+}
+.website-footer{
+    
     background-color: black;
     color: white;
-}
-website-footer{
-    height: 200px;
-
+    height: 100px;
+  
 }
