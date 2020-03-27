@@ -43,7 +43,7 @@ header{
 auto if you add more content that wil fill the box */
 
 .wrapper>div{
-    background: #666464;
+    background: #8b8080;
         padding: 1em;
 }
     /*this is the padding for the text within the box */
@@ -51,7 +51,7 @@ auto if you add more content that wil fill the box */
 
 .wrapper>div:nth-child(odd) {
     /*Changing the color for odd numbers */
-    background: #333030;
+    background: #f8f6f6;
 }
 .website-footer{
     
