@@ -27,22 +27,15 @@ header{
 
 .wrapper {
     display: grid;
-      /*This put the spacing of the columns on the page */
-      /*grid-template-columns:repeat(3, 1fr); This code removes the need for multiple fr's*/
-    grid-template-columns: 1fr 1fr 1fr;
-  /*column gap*/
+     grid-template-columns:repeat(3, 1fr);
+    /*column gap*/
     grid-column-gap: 1em;
     /*row gap*/
     grid-row-gap: 1em;
+     /* grid-gap:1em; This will keep the same sizes between rows and columns */
 }
-    /* grid-gap:1em; This will keep the same sizes between rows and columns */
 
-  
-
-/*grid-auto-rows: minmax (100px,auto);This code makes the height of the box 100px our 
-auto if you add more content that wil fill the box */
-
-.wrapper>div{
+   .wrapper>div{
     background: #8b8080;
         padding: 1em;
 }
@@ -54,9 +47,8 @@ auto if you add more content that wil fill the box */
     background: #f8f6f6;
 }
 .website-footer{
-    
     background-color: black;
     color: white;
     height: 100px;
-  
-}
+    width: auto;
+  }
