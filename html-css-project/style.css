@@ -1,0 +1,103 @@
+/** @format */
+
+body {
+	background-color: #73e9f1;
+
+	font-family: "Times New Roman";
+}
+.header {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: center;
+	background: #0eee06;
+	color: white;
+	font-size: 30px;
+}
+img {
+	max-width: 100%;
+	height: 100%;
+}
+
+article1 > p {
+	background-color: rgb(243, 2, 2);
+}
+
+article1 {
+	display: flex;
+	text-align: center;
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid hsl(0, 90%, 51%);
+	padding: 20px;
+	margin: 20px;
+	position: center;
+	flex-direction: column;
+}
+
+article2 {
+	display: flex;
+	text-align: center;
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid rgb(4, 247, 65);
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+	flex-direction: column;
+}
+
+article3 {
+	display: flex;
+	text-align: center;
+	background-color: lightgrey;
+	width: 300px;
+	border: 15px solid rgb(4, 28, 245);
+	padding: 20px;
+	margin: 20px;
+	position: relative;
+	flex-direction: column;
+}
+
+footer {
+	margin-top: 10px;
+	margin-bottom: auto;
+	background-color: #f5f10e;
+	padding: 5px;
+}
+
+oter > ul {
+	display: flex;
+	justify-content: center;
+}
+
+footer > ul > li {
+	padding: 0 25px;
+}
+
+footer > span {
+	margin-top: 4px;
+	display: flex;
+	text-align: center;
+	font-size: 0.9em;
+	color: #ff0000;
+}
+footer > ul {
+	display: flex;
+	justify-content: flex-end;
+	text-align: left;
+}
+footer > ul > li {
+	padding: 0 25px;
+	text-align: left;
+}
+
+footer > span {
+	margin-top: 2px;
+	display: flex;
+	justify-content: flex-end;
+	font-size: 20px;
+	text-align: right;
+	color: #ff0000;
+}

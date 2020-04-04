@@ -1,0 +1,104 @@
+/** @format */
+
+body {
+	background-color: #fde400;
+	font-family: Helvetica, sans-serif;
+	margin: 0;
+}
+/*sidebar menue*/
+
+.sidebar {
+	margin-right: 50px;
+	padding: 10;
+	width: 1000px;
+	background-color: #fde400;
+	position: relative;
+	height: 500%;
+	overflow: auto;
+	border-radius: 1rem;
+}
+
+.sidebar a {
+	display: block;
+	color: blue;
+	padding: 25px;
+}
+
+.sidebar a.active {
+	background-color: #06c50d;
+	color: rgb(0, 17, 255);
+	border-radius: 1rem;
+}
+
+/*media query responsive sidebar screen sizes*/
+@media screen and (min-width: 1200px) {
+	.sidebar {
+		width: 700px;
+		background-color: red;
+		position: relative;
+		height: 100%;
+		overflow: auto;
+	}
+}
+
+/*header tag*/
+header {
+	margin: 0;
+	padding-top: 50px;
+	padding-bottom: 1px;
+	padding-left: 20px;
+	padding-right: 1000px;
+	text-align: center;
+	background: #01fa37;
+	color: rgb(8, 69, 235);
+	font-size: 20px;
+	max-height: 200px;
+}
+/*image tag*/
+img {
+	max-width: 100%;
+	height: 100%;
+	border-radius: 1rem;
+}
+.flex-container {
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	align-content: flex-start;
+}
+
+/*flex container*/
+.flex-container > div {
+	display: flex;
+}
+
+.topic {
+	display: flex;
+	flex-direction: column;
+	background-color: lightgrey;
+	width: 300px;
+	padding: 50px;
+	margin: 50px;
+	border-radius: 1rem;
+}
+
+.topic:first-child {
+	background-color: rgb(197, 59, 105);
+}
+
+.mainD {
+	display: flex;
+}
+
+@media screen and (max-width: 600px) {
+	.mainD {
+		display: flex;
+		flex-direction: column;
+	}
+	.sidebar {
+		margin: 0 auto;
+	}
+}
