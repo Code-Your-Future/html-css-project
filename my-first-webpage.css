@@ -1,52 +1,80 @@
 /*
 
-[  erol-html-css = my-first-webpage  ] 
+[  erol-html-css = my-first-webpage  2020 CYF ] 
 
 */
 
-body {
+* {
   margin: 0;
   padding: 0;
-  font-size: 15px;
-  letter-spacing: 0.3px;
-  background-color: antiquewhite;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
 }
 
 header {
   display: flex;
-  flex-direction: row;;
-  height:auto;
-  width: 100%;
-  color: black; 
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
   background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg);
   font-weight: bolder;
- 
+  justify-content: space-evenly;
+  align-content: center;
+  width:100%;
+  height: 450px;
 }
 
 h1{
   display: flex;
-  flex-direction: row;;
+  flex-direction: row;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size:7em;
-  padding-left: 2em;
-  text-align: center;
-  justify-content: center;
-}
-span {
-  display: flex;
-  flex-direction: row;;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 2em;
+  font-size:8em;
   text-align: center;
   justify-content: space-evenly;
-  justify-items: flex-end;
   align-content: center;
-  align-items: flex-end;
-  color:black;
-  font-style: italic;
-  font-weight: bolder;
+  align-items: center;
+}
+
+h1:hover {
+  color: white
+}
+
+span {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  padding: 1em;
+  align-content: center;
+  align-items: center;
+}
+
+span:hover {
+  color: red;
 }
 
 
+h2 {
+  background-color: rgb(235, 195, 123);
+  box-sizing: border-box;
+  border: 0.2em solid black;
+  font-size: 4em;
+  padding: 0.5em;
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+h2:hover {
+background-color: rgb(127, 236, 218);
+}
 
 h3 {
   background-color: rgb(247, 193, 113);
@@ -54,50 +82,95 @@ h3 {
   box-sizing: border-box;
   border: 0.2em solid black;
   font-size: 2em;
-  padding: 1em;
+  padding: 0.5em;
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
 }
+
+h3:hover {
+  background-color: lightseagreen;
+  }
 
 p {
-  padding: 1em;
-  margin: 1em;
+  padding: 5px;
+  margin: 5px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: medium;
-  
-}
-
-.fruits {
-  display: flex;
-  flex-direction: column;
-  float: left;
-  width: 70%;
-  padding: 1em;
-  margin: 1em;
-}
-
-.fruits-box {
-  display: flex;
-  flex-direction: row;
+  font-size: 25px;
   justify-content: center;
   align-content: center;
-  padding: 1em;
-  margin: 1em;;
-  height:100%;
-  background-color: aqua;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-areas:".yellow-fruits .green-fruits .red-fruits "
+                      ".pink-fruits .black-fruits .blue-fruits ";
+  grid-row-gap: 30px;
+  grid-column-gap: 5px;
+  float: left;
+  justify-content: space-between;
+  align-content:center;
+  justify-items: stretch;
+  align-items: center;
 
 }
 
-.yellow-fruits,
-.green-fruits,
-.red-fruits {
+aside {
   display: flex;
   flex-direction: column;
+  float: right;
+  max-width: 450px; 
+  height:auto;
+  background-color: greenyellow;
+  justify-content: space-evenly;
+  align-content:center;
   align-items: center;
-  align-content: center;
-  justify-content: first baseline;
-  justify-items: baseline;
-  flex-basis: 38%;
-  margin-right: 2em;
-  padding: 1em;
+  text-align: center;
+  padding: 30px;
+}
+
+.yellow-fruits {
+  grid-area: .yellow-fruits;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  justify-items: stretch;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+
+}
+
+.green-fruits {
+  grid-area: .green-fruits;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+.red-fruits {
+  grid-area: .red-fruits;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
 }
 
 #first-child > p:first-child {
@@ -118,139 +191,109 @@ a {
 }
 
 
-
-
-.fruits2 {
-  display: flex;
-  flex-direction: column;
-  float: left;
-  width: 70%;
-  padding: 1em;
-  margin: 1em;
-}
-
-.fruits-box2 {
-  display:flex;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-  align-items: flex-start;
-  align-content: center;
-  padding: 1em;
-  background-color: aqua;
-}
-
-.pink-fruits,
-.black-fruits,
-.blue-fruits {
- 
-  display: flex;
-  flex-direction: column;
+.pink-fruits {
+  grid-area: .pink-fruits;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
   align-items: center;
-  align-content: center;
-  justify-content: first baseline;
-  justify-items: baseline;
-  flex-basis: 38%;
-  margin-right: 2em;
-  padding: 1em;
+  text-align: center;
+  height:100%;
+  width:350px;
 }
+
+.black-fruits {
+  grid-area: .black-fruits;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+.blue-fruits {
+  grid-area: .blue-fruits;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
 
 img {
-  display: flex;
-  flex-direction: column;
-  vertical-align: middle;
-  width: 10em;
-  height: 10em;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 15em;
+  height: 15em;
   border: 0.7em solid black;
   border-radius: 2em;
   border-style: groove;
-}
-
-aside {
-  display: flex;
-  flex-direction: column;
-  margin-right: 2em;
-  padding: 1em;
-  height: 100%;
-  background-color: greenyellow;
-  align-items: center;
-  align-content: center;
-  justify-content: first baseline;
-  justify-items: baseline;
-  
- 
 }
 
 
 #fruits-emotions1,
 #fruits-emotions2,
 #fruits-emotions3 {
-padding:1em;
+  padding:1em;
   width: 15em;
   height: 20em;
 }
 
 footer {
   margin: 0em;
-  padding: 1em;
-  height: 100px;
-  width: 100%;
+  padding-right: 50px;
+  height: 250px;
+  min-width: 100%;
   display: flex;
   align-items: center;
-  justify-items: center;
+  justify-items: end;
   align-content: flex-end;
   justify-content: flex-end;
   font-size: x-large;
-  background-color: rgb(127, 133, 133);
+  background-color: black;
+  color: white;
+  
 }
 
-@media screen and (max-width: 460px) {
-  :root {
-    font-size: 8px;
-    font-weight: bold;
-  }
-  body,
-  header,
-  .container,
-  .main,
-  .fruits,
-  .fruits2 .fruit-box,
-  .fruits-box2 {
-    display: flex;
-    flex-direction: column;
-  }
+@media screen and (min-width: 320px) {
+  body, .content {
+   width: 100%;
+   background-color: gray;
+}
 }
 
-@media screen and (max-width: 760px) {
-  :root {
-    font-size: 12px;
-    font-weight: bold;
-  }
-  body,
-  header,
-  .container,
-  .main,
-  .sidebar {
-    display: flex;
-    flex-direction: row;
+@media screen and (min-width: 740px) {
+  body, .content {
+  width: 100%;
+  background-color: white
+}
+
+@media screen and (min-width: 980px) {
+  body, .content {
+    width: 100%;
+    background-color: rgb(235, 238, 61);
   }
 }
 
-@media screen and (max-width: 960px) {
-  :root {
-    font-size: 14px;
-    font-weight: bold;
-  }
-  body,
-  header,
-  .container,
-  .main,
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
-/* Erol, CodeYourFuture student  */
+/* Erol, CodeYourFuture student  2020 */
 
 
