@@ -1,0 +1,323 @@
+/*
+
+[  erol-html-css = my-first-webpage  2020 CYF ] 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg);
+  font-weight: bolder;
+  justify-content: space-evenly;
+  align-content: center;
+  width:100%;
+  height: 100%;
+  min-height: min-content;
+}
+
+h1{
+  display: flex;
+  flex-direction: row;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size:8em;
+  text-align: center;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+}
+
+h1:hover {
+  color: white
+}
+
+span {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2em;
+  padding: 1em;
+  align-content: center;
+  align-items: center;
+}
+
+span:hover {
+  color: red;
+}
+
+
+h2 {
+  background-color: rgb(235, 195, 123);
+  box-sizing: border-box;
+  border: 0.2em solid black;
+  font-size: 4em;
+  padding: 0.5em;
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+h2:hover {
+background-color: rgb(127, 236, 218);
+}
+
+h3 {
+  background-color: rgb(247, 193, 113);
+  display: flex;
+  box-sizing: border-box;
+  border: 0.2em solid black;
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+h3:hover {
+  background-color: lightseagreen;
+  }
+
+p {
+  padding: 5px;
+  margin: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-areas:".yellow-fruits .green-fruits .red-fruits "
+                      ".pink-fruits .black-fruits .blue-fruits ";
+  grid-row-gap: 30px;
+  grid-column-gap: 5px;
+  float: left;
+  justify-content: space-between;
+  align-content:center;
+  justify-items: stretch;
+  align-items: center;
+
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  float: right;
+  max-width: 450px; 
+  height:auto;
+  background-color: greenyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.yellow-fruits {
+  grid-area: .yellow-fruits;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  justify-items: stretch;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+
+}
+
+.green-fruits {
+  grid-area: .green-fruits;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+.red-fruits {
+  grid-area: .red-fruits;
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-color: lightyellow;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+#first-child > p:first-child {
+  font-style: italic;
+  color: gray;
+}
+
+a {
+  color: red;
+  font-style: italic;
+  font-size: medium;
+  font-family: "Times New Roman", Times, serif;
+  padding: 2em;
+}
+
+.yellow-fruits > a:hover {
+  color: yellowgreen;
+}
+
+
+.pink-fruits {
+  grid-area: .pink-fruits;
+  grid-column: 1/2;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+.black-fruits {
+  grid-area: .black-fruits;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+.blue-fruits {
+  grid-area: .blue-fruits;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin: 5px;
+  padding: 5px;
+  background-color: lightpink;
+  justify-content: space-evenly;
+  align-content:center;
+  align-items: center;
+  text-align: center;
+  height:100%;
+  width:350px;
+}
+
+
+img {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  width: 15em;
+  height: 15em;
+  border: 0.7em solid black;
+  border-radius: 2em;
+  border-style: groove;
+}
+
+
+#fruits-emotions1,
+#fruits-emotions2,
+#fruits-emotions3 {
+  padding:1em;
+  width: 15em;
+  height: 20em;
+}
+
+footer {
+  margin: 0em;
+  padding-right: 50px;
+  height: 250px;
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-items: end;
+  align-content: flex-end;
+  justify-content: flex-end;
+  font-size: x-large;
+  background-color: black;
+  color: white;
+  
+}
+
+@media screen and (min-width: 320px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgray;
+}
+body {
+background-color: lightgray;
+}
+}
+
+@media screen and (min-width: 768px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: white;
+}
+body {
+  background-color: white;
+}
+}
+
+@media screen and (min-width: 992px) {
+  #content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(235, 238, 61);
+  }
+  body {
+    background-color:rgb(235, 238, 61) ;
+  }
+}
+
+
+/* Erol, CodeYourFuture student  2020 */
+
+
