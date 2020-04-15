@@ -1,0 +1,102 @@
+  html {
+    font-family: "bree serif", Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    background-color: rgb(154, 198, 240);
+    padding: 20px;
+    font-size: 48px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+
+  /* Add a black background color to the top navigation */
+  .topnav {
+    background-color: rgb(126, 195, 226);
+    overflow: hidden;
+
+    text-align: right;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: auto;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(17, 52, 83);
+    color: rgb(143, 223, 223);
+  }
+
+  .main-wrapper {
+    display: flex;
+    background-color: whitesmoke;
+  }
+  .main-content {
+    flex: 1;
+  }
+
+  .box {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: 1px #d6d6d6 solid;
+    border-radius: 10px;
+    max-width: 17rem;
+    background-color: turquoise;
+
+    margin: 1rem 1rem 1rem 0;
+  }
+  .img-box {
+    width: 16rem;
+    height: 12rem;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+
+
+  p:last-child {
+    color: cornsilk;
+    padding: 5px 8px 8px 5px;
+    text-align: center;
+  }
+
+
+  .sidebar {
+    flex: 0 0 300px;
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: #ffffff;
+    align-items: center;
+    margin: 15px 2px 20px 2px;
+  }
+
+  /* Style the footer */
+  .footer {
+    clear: both;
+    background-color: rgb(154, 198, 240);
+    padding: 15px;
+    text-align: right;
+    color: white;
+    margin-top: auto;
+  }
+
+  @media (min-width: 320px) and (max-width: 900px) {
+    .main-wrapper {
+      flex-direction: column;
+    }
+    .box {
+      max-width: 110vw;
+    }
+  }
